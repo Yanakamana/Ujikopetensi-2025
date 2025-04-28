@@ -69,3 +69,9 @@ export async function ubahtugas(docId, tugas, status, prioritas, tanggal) {
     tanggal: tanggal,
   });
 }
+export async function ambiltugas(docId) {
+  const docRef = await doc(db, "senin", docId);
+  const docSnap = await getDoc(docRef);
+
+  return await docSnap.data();
+}
