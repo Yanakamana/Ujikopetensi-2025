@@ -39,3 +39,6 @@ export async function ambildaftartugas() {
       tanggal: dok.data().tanggal,
     });
   });
+  
+    return hasil;
+}
