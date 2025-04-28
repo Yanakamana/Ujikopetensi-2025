@@ -92,3 +92,7 @@ $(".tombol-hapus").click(async function () {
   location.reload();
 });
 
+// Event listener untuk ubah tugas
+$(".ubah").click(async function () {
+  window.location.replace("ubahtugas.html?docId=" + $(this).attr("data-id"));
+});
