@@ -23,3 +23,8 @@ const firebaseConfig = {
 };
 const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
+
+export async function ambildaftartugas() {
+  const refDokumen = collection(db, "senin");
+  const kueri = query(refDokumen, orderBy("tugas"));
+  const cuplikankueri = await getDocs(kueri);
