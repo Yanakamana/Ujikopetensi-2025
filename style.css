@@ -10,7 +10,7 @@ body {
 /* Judul */
 h1 {
   text-align: center;
-  color: #e60000; /* merah Spider-Man */
+  color: #272B39; /* merah Spider-Man */
   text-shadow: 2px 2px 5px black;
   margin-bottom: 30px;
 }
@@ -39,7 +39,7 @@ h1 {
 }
 
 .dropdown-item:hover {
-  background-color: #e60000; /* Warna merah saat hover */
+  background-color: #503636; /* Warna merah saat hover */
   font-weight: bold; /* Menebalkan tulisan saat hover */
 }
 
@@ -64,7 +64,7 @@ h1 {
 }
 
 #filter-belum {
-  background-color: #dc3545;
+  background-color: #653C40;
   border: none;
 }
 
@@ -78,7 +78,7 @@ h1 {
 
 .table th, .table td {
   color: white !important; /* pastikan teksnya putih dan terlihat */
-  background-color: #D33C1C; /* baris isi tabel */
+  background-color: #53523F; /* baris isi tabel */
   vertical-align: middle;
 }
 
@@ -99,7 +99,7 @@ h1 {
 }
 
 .btn-danger {
-  background-color: #e60000;
+  background-color: #E70606;
   border: none;
 }
 
