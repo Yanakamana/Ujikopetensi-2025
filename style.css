@@ -1,6 +1,6 @@
 /* Background dan font umum */
 body {
-  background: url('spiderman.jpg') no-repeat center center fixed;
+  background: url('gambarr.png') no-repeat center center fixed;
   background-size: cover; /* Agar gambar latar memenuhi layar */
   color: white;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
